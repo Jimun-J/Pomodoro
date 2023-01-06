@@ -1,0 +1,20 @@
+.pomodoro .current-state {
+    display: flex;
+    justify-content: space-between;
+    max-width: 360px;
+    width: 100%;
+    margin: 22px 0;
+    background-color: #151932;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.pomodoro .current-state div {
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: #606480;
+    font-weight: 700;
+}

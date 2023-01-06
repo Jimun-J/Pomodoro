@@ -1,0 +1,134 @@
+.pop-up {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.384);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.modal {
+    max-width: 420px;
+    width: 95%;
+    height: 440px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.modal .title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.modal .title img {
+    width: 20px;
+    height: 20px;
+    transform: translateY(6px);
+    cursor: pointer;
+}
+
+.time-setting, .font-setting, .theme-setting {
+    margin: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.time-setting {
+    height: 97px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs input {
+    margin: 2px 0;
+}
+
+.warning {
+    color: red;
+    font-size: 11px;
+    letter-spacing: 0;
+    margin-top: 10px;
+}
+
+.font-setting, .theme-setting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fonts, .themes {
+    display: flex;
+}
+
+.fonts div, .themes div {
+    margin: 0 5px;
+    width: 36px;
+    height: 36px;
+    background-color: #EDF1FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.themes div:first-child {
+    background-color: #F6726F;
+}
+
+.themes div:nth-child(2) {
+    background-color: #6FF3F6;
+}
+
+.themes div:last-child {
+    background-color: #D981F9;
+}
+
+label {
+    font-size: 0.6em;
+    letter-spacing: 0;
+    color: rgb(112, 112, 112);
+}
+
+input[type=number] {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #EEF1FA;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.apply-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 120px;
+    display: block;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    transform: translateY(60%);
+    cursor: pointer;
+    border-radius: 24px;
+    background-color: #F87070;
+}
